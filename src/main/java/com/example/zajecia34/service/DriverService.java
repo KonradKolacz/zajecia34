@@ -12,6 +12,6 @@ public class DriverService {
     private final DriverRepository driverRepository;
 
     public boolean hasMorePointsInLastYearThanAllowed(long id) {
-        driverRepository.findById(id).orElELELELEL
+        driverRepository.findById(id).orElse(null);
     }
 }
